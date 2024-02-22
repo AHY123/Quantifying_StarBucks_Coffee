@@ -3,7 +3,7 @@
     import * as d3 from "d3";
 
     onMount( async() => {
-        const response = await fetch("/assets/starbucks.csv");
+        const response = await fetch("/src/data/starbucks.csv");
         const text = await response.text();
         raw_data = d3.csvParse(text, d3.autoType);
         // console.log("data: ");
@@ -191,7 +191,7 @@
                     y={40}
                     text-anchor="middle"
                     font-size="24"
-                    fill="black">{'The amount of ' + option_nutrition + ' in Starbucks Drinks'}</text
+                    fill="black">{'The Amount of ' + option_nutrition + ' in Starbucks Drinks'}</text
                 >
             </g></svg
         >
