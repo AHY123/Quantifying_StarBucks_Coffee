@@ -1,0 +1,42 @@
+Beverage_category,Beverage,Size,Calories,Total Fat (g),Protein (g),Caffeine (mg)
+Coffee,Brewed Coffee,Short,3,0.1,0.3,175
+Coffee,Brewed Coffee,Tall,4,0.1,0.5,260
+Coffee,Brewed Coffee,Grande,5,0.1,1.0,330
+Coffee,Brewed Coffee,Venti,5,0.1,1.0,410
+Classic Espresso Drinks,Caffè Americano,Short,5,0,0.4,75
+Classic Espresso Drinks,Caffè Americano,Tall,10,0,1.0,150
+Classic Espresso Drinks,Caffè Americano,Grande,15,0,1.0,225
+Classic Espresso Drinks,Caffè Americano,Venti,25,0,1.0,300
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Short,140,0,0.0,0
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Tall,210,0,0.0,0
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Grande,280,0,0.0,0
+Signature Espresso Drinks,Caramel Apple Spice (Without Whipped Cream),Venti,360,0,0.0,0
+Tazo® Tea Drinks,Tazo® Tea,Short,0,0,0.0,Varies
+Tazo® Tea Drinks,Tazo® Tea,Tall,0,0,0.0,Varies
+Tazo® Tea Drinks,Tazo® Tea,Grande,0,0,0.0,Varies
+Tazo® Tea Drinks,Tazo® Tea,Venti,0,0,0.0,Varies
+Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),Tall,60,0,0.2,120
+Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),Grande,90,0.1,0.3,165
+Shaken Iced Beverages,Iced Brewed Coffee (With Classic Syrup),Venti,130,0.1,0.4,235
+Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),Tall,60,0,0.0,170
+Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),Grande,80,0,0.0,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea (With Classic Syrup),Venti,120,0,0.0,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),Tall,100,0,0.1,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),Grande,130,0,0.1,Varies
+Shaken Iced Beverages,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),Venti,190,0,0.1,Varies
+Frappuccino® Blended Coffee,Coffee,Tall,180,2.5,3.0,70
+Frappuccino® Blended Coffee,Coffee,Grande,240,3,3.0,95
+Frappuccino® Blended Coffee,Coffee,Venti,350,5,5.0,130
+Frappuccino® Blended Coffee,Mocha (Without Whipped Cream),Tall,200,3,3.0,70
+Frappuccino® Blended Coffee,Mocha (Without Whipped Cream),Grande,290,4,4.0,110
+Frappuccino® Blended Coffee,Mocha (Without Whipped Cream),Venti,390,6,6.0,140
+Frappuccino® Blended Coffee,Caramel (Without Whipped Cream),Tall,200,2.5,3.0,70
+Frappuccino® Blended Coffee,Caramel (Without Whipped Cream),Grande,280,3.5,3.0,100
+Frappuccino® Blended Coffee,Caramel (Without Whipped Cream),Venti,370,5,5.0,130
+Frappuccino® Blended Coffee,Java Chip (Without Whipped Cream),Tall,240,5,4.0,75
+Frappuccino® Blended Coffee,Java Chip (Without Whipped Cream),Grande,340,7,5.0,110
+Frappuccino® Blended Coffee,Java Chip (Without Whipped Cream),Venti,460,10,7.0,145
+Frappuccino® Blended Crème,Strawberries & Crème (Without Whipped Cream),Tall,190,3,3.0,0
+Frappuccino® Blended Crème,Strawberries & Crème (Without Whipped Cream),Grande,260,4,4.0,0
+Frappuccino® Blended Crème,Strawberries & Crème (Without Whipped Cream),Venti,350,6,6.0,0
+Frappuccino® Blended Crème,Vanilla Bean (Without Whipped Cream),Tall,200,3.5,3.0,0

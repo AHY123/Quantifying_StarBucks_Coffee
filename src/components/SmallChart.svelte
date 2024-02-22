@@ -2,8 +2,17 @@
     import { onMount, afterUpdate } from "svelte";
     import * as d3 from "d3";
 
-    onMount(() => {
-        fetchData();
+    onMount( async() => {
+        const response = await fetch("/assets/starbucks.csv");
+        const text = await response.text();
+        raw_data = d3.csvParse(text, d3.autoType);
+        // console.log("data: ");
+        console.log(raw_data);
+        // console.log("data: ");
+        // console.log(raw_data[0]["Beverage"]);
+        get_plot_data();
+        // console.log("plot_data: ");
+        // console.log(plot_data);
     });
 
     //Chart Configurations
@@ -59,18 +68,6 @@
         get_plot_data();
     });
 
-    const fetchData = async () => {
-        const response = await fetch("/assets/starbucks.csv");
-        const text = await response.text();
-        raw_data = d3.csvParse(text, d3.autoType);
-        console.log("data: ");
-        console.log(raw_data);
-        // console.log("data: ");
-        // console.log(raw_data[0]["Beverage"]);
-        get_plot_data();
-        console.log("plot_data: ");
-        console.log(plot_data);
-    };
 
     function get_plot_data() {
         plot_data = [];
