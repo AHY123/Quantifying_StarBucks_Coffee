@@ -139,14 +139,16 @@
             height: 70vh;
         }
         .col_left {
-            width: 60%;
+            padding: 20px;
+            width: 50%;
             /* If you want to ensure content is vertically aligned, you can add */
             display: flex;
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
         }
         .col_right {
-            width: 40%;
+            padding: 20px;
+            width: 50%;
             /* Same vertical alignment styles if needed */
             /* display: flex; */
             justify-content: center; /* Center horizontally */
