@@ -239,7 +239,7 @@
                 <g>
                     {#if hovered !== -1}
                         <g
-                            transform="translate({recorded_mouse_position.x - 100}, {recorded_mouse_position.y - 20})"
+                            transform="translate({recorded_mouse_position.x - 100}, {recorded_mouse_position.y - 100})"
                             class={hovered === -1
                                 ? "tooltip-hidden"
                                 : "tooltip-visible"}
